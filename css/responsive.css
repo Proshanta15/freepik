@@ -1,0 +1,337 @@
+/*==============================================*/
+
+ 
+   
+/*====== 991 px =====*/
+
+
+@media (max-width: 991px){
+
+/*==Start Navbbar Section=*/
+.navbar {
+    padding: 10px 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    font-size: 18px;
+}
+.navbar .nav-item .button {
+   
+    width: 75px;
+}
+
+/*= End Navbbar Section==*/
+
+/* Blog Section*/
+    #blog-section img {
+        height: 330px;
+    }
+    /*====Blog Section===*/
+
+    /*==Footer==**/
+    #footer p {
+        
+        font-size: 15px;
+    }
+
+    /*== End Footer==**/
+
+
+    /*Register Page*/
+    #login-page .first-col {
+        margin: 20px 0px;
+    }
+    #login-page form {
+        padding: 10px 30px;
+    }
+    /*End Register Page*/
+}
+
+
+/*====== End 991px =====*/
+
+/*=================================================*/
+
+
+/*====== 767 px =====*/
+
+@media(max-width: 767px){
+
+/**Slider Section**/
+
+#slider-section {
+    min-height: 85vh;
+}
+#slider-section .slider-title h1 {
+    font-size: 35px;
+}
+#slider-section form {
+    padding-top: 25px;
+}
+/**End Slider Section**/
+
+/**Blog Section**/
+#blog-section .card {
+    overflow: hidden;
+    margin: 0px 60px;
+}
+/**End Blog Section**/
+
+/**Footer Section**/
+#footer p {
+    font-size: 16px;
+}
+/**End Footer Section**/
+#footer-top h4{
+    font-size: 20px;
+}
+#footer-top p a { 
+    font-size: 14px; 
+}
+
+/*Register Page*/
+#login-page form {
+    width: 510px;
+}
+#login-page form .login a {
+    padding: 5px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+}
+#login-page .form-control-lg {
+    font-size: 1rem; 
+}
+#login-page form .pass-p {
+    font-size: 15px;
+    padding: 8px 0;
+}
+#login-page form label {
+    font-size: 13px;
+}
+#login-page form button {
+    font-size: 15px;
+}
+#login-page p {
+    font-size: 15px; 
+}
+/*End Register Page*/
+
+
+}
+
+
+/*====== End 767 px =====*/
+
+/*=============================================*/
+
+/*====== 575 px =====*/
+
+@media(max-width: 575px){
+/*navbar*/
+.navbar-dark .navbar-toggler-icon {
+    font-size: 15px;
+}
+/*End navbar*/
+    /*slider**/
+    #slider-section {
+        min-height: 79vh;
+    }
+    #slider-section .slider-title h1 {
+        font-size: 25px;
+    }
+    #slider-section .slider-title h5 {
+        font-size: 16px;
+    }
+    .form-control {
+        font-size: 12px;
+    }
+    .btn-secondary {
+        font-size: 12px;
+    }
+    .btn-outline-success {
+        margin-top: 10px;
+    }
+    .dropdown-item {
+        font-size: 12px;
+    }
+    /*End slider**/
+
+    /*Gallery slider**/
+    #gallery-section button {
+        font-size: 11px;
+        color: #fff;
+        font-weight: 700;
+    }
+    #gallery-section .single-team {
+        height: 165px;
+        background: #fff;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        transition: .6s ease-out;
+        border: 2px solid rgb(208, 189, 189);
+    }
+    .single-team .team-text p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    #gallery-section .load-more {
+        margin-bottom: 25px;
+    }
+    /*End Gallery slider**/
+
+
+/*Collection Section*/
+    #collection-section h2 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    #collection-section .card-img-top {
+        height: 140px;
+    }
+    #collection-section .team-text .dots-pic img {
+        width: 10px;
+    }
+    #collection-section .team-text .dots-pic .testing a span {
+        font-size: 10px;
+    }
+    #collection-section .design-1 {
+        height: 210px;
+    }
+    #collection-section .single-team {
+        height: 179px;
+    }
+    #collection-section .single-team .team-text {
+        padding-bottom: 65px;
+    }
+    /*End Collection Section*/
+    
+/*Tag Section*/
+
+    #tags-section .tag-heading h2 {
+        padding-bottom: 5px;
+        font-size: 25px;
+    }
+    #tags-section p a{
+        font-size: 15px;
+    }
+    #tags-section p{
+        margin-bottom: 0px;
+    }
+    #tags-section a {
+        font-size: 17px;
+    }
+    /*End Tag Section*/
+
+    /*Blog Section*/
+    #blog-section h2 {
+        padding: 15px 0;
+    }
+    #blog-section .card {
+        overflow: hidden;
+        margin: 0px 20px;
+    }
+    #blog-section .card-deck {
+        margin: 0 0px;
+    }
+    #blog-section img {
+        height: 266px;
+    }
+    /*End Blog Section*/
+/*Footer Top*/
+    #footer-top h2 {
+        font-size: 20px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    #footer-top .img img {
+        width: 90px;
+        height: 85px;
+        background: #fff;
+        border-radius: 5px;
+        margin: 3px;
+        margin-bottom: 10px;
+    }
+    #footer-top h4 {
+        font-size: 18px;
+    }
+    #footer-top p{
+        margin-bottom: 3px;
+    }
+    #footer-top p a {
+        font-size: 12px;
+    }
+    /*End Footer Top*/
+
+/*Footer Icon*/
+    #footer-icon .icon {
+        border: 2px solid #21576f;
+        border-bottom-right-radius: 10px;
+        padding: 9px;
+        width: 65px;
+    }
+    #footer-icon .icon i {
+        font-size: 35px;
+    }
+    #footer-icon .title {
+        font-size: 14px;
+    }
+    /*End Footer Icon*/
+    #footer {
+        padding: 0px 0;
+    }
+
+    /*Register Page*/
+    #login-page img {
+        width: 100px;
+    }
+    #login-page form {
+        width: 290px;
+    }
+    #login-page form .login a {
+        padding: 5px 5px;
+        font-size: 10px;
+        margin: 0px 10px;
+    }
+    #login-page p {
+        font-size: 12px;
+        margin: 0px 109px;
+    }
+    #login-page h1{
+        font-size: 30px;
+    }
+    #login-page form .pass-p {
+        font-size: 11px;
+        padding: 5px 0;
+        margin: 0px;
+    }
+    #login-page form label {
+        font-size: 10px;
+    }
+    #login-page form button {
+        font-size: 12px;
+    }
+    #login-page .link a{
+        font-size: 9px;
+    }
+    #login-page .float-right{
+        font-size: 10px;
+    }
+       /*End Register Page*/
+
+}
+
+
+/*====== End 575 px =====*/
+
+
+/*=======  460 px ====*/
+
+@media(max-width: 460px){
+    #login-page p {
+        font-size: 12px;
+        margin: 0px 60px;
+    }
+}
+
+/*======= End 460 px ====*/

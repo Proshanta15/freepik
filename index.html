@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freepic</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+<body>
+  <!-- ===== Start Navbbar Section =======-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="vector.html" target="_blank">Vectors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PSD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Collections</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More tools
+              </a>
+              <ul class="dropdown-menu menu-bg" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item event" href="#">Flaticon</a>
+                    <li><a  class="dropdown-item link" href="#">Free customizable icons</a></li> 
+                 </li>
+                   <li><a class="dropdown-item event" href="#">Slidesgo</a>
+                   <li><a  class="dropdown-item link" href="#">Free presentation templates</a></li>  
+                 </li>
+                   <li><a class="dropdown-item event" href="#">Storyset</a>
+                     <li><a  class="dropdown-item link" href="#">Free editable illustrations</a></li>  
+                 </li>
+                   <li><a class="dropdown-item event" href="#">Freepik Editor</a>
+                     <li><a  class="dropdown-item link" href="#">Free online template editors</a></li>  
+                 </li>
+                </ul>
+            </li>
+            
+          </ul>
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html" target="_blank">Log in</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link button" href="register.html" target="_blank">Sign up</a>
+              </li>
+        </ul>
+        </div>
+      </nav>
+
+
+      <!-- ===== End Start Navbbar Section =======-->
+
+
+      <!-- ========== Slider Section ==========-->
+
+
+      <section class="slider-area" id="slider-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="logo">
+                       <a href="index.html"><img src="./images/dms.png" alt="Logo"></a> 
+                    </div>
+                    <div class="slider-title text-center">
+                        <h1>Graphic resources for everyone</h1>
+                        <h5>Find Free Vectors, Stock Photos and PSD</h5>
+                    </div>
+                   
+                   <form class="text-center">
+                    <div class="slider-box">
+                    <div class="form-group" action="">
+                      <div class="dropdown check-box">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          All resources
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Resources</a>
+                          <a class="dropdown-item" href="#">Collections</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Free</a>
+                          <a class="dropdown-item" href="#"><img src="./images/premium.jpg" alt=""> Premium</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Vectors</a>
+                          <a class="dropdown-item" href="#">Photos</a>
+                          <a class="dropdown-item" href="#">Psd</a>
+                          <a class="dropdown-item" href="#">Icons</a>
+                        </div>
+                      </div>
+                    </div>
+                     <div class="form-group search form-inline" class="">
+                      <input class="form-control ml-1" type="search" placeholder="Search All Resources" aria-label="Search">
+                      <button class="btn btn-outline-success ml-1" type="submit">Search</button>
+                     </div>
+                    </div>
+                  </form>
+                  <div class="slider-link text-center">
+                    <p>Examples: <a href="#" target="_blank">Poster,</a> <a href="#" target="_blank">Infographic,</a> <a href="#" target="_blank"> Certificate.</a></p>
+                  </div>
+                </div>
+            </div>
+            <div class="row text-center">
+              <div class="col slider-btn">
+                <a href="#">Popular</a>
+                <a href="#">Recent</a>
+              </div>
+            </div>
+        </div>
+        </section>
+
+<!-- ========== End Slider Section ==========-->
+
+<!-- ========== Gallery Section ==========-->
+<section class="gallery-area" id="gallery-section">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col">
+        <div class="button-group">
+         <button type="button" data-filter=".freepiks">Freepik’s Choice</button>
+         <button type="button" data-filter=".vectors">Vectors</button>
+         <button type="button" data-filter=".photos">Photos</button>
+         <button type="button" data-filter=".psds">Psds</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container-fluid img-mixer">
+    <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 img-gallery">
+      <div class="col mb-4 freepiks vectors mix">
+        <a href="#">
+        <div class="card">
+          <div class="card-image single-team">
+          <img src="./images/7.jpg" class="card-img-top" alt="7">
+            <div class="team-text">
+              <p class="ml-2">Pantone 2021 geometric background</p>
+              <p><img class="mx-2" src="./images/dms.png" alt="logo">freepik</p>
+            </div>
+
+          </div>     
+        </div>
+      </a>
+      </div>
+      <div class="col mb-4 photos psds freepiks mix">
+        <div class="card">
+          <div class="card-image single-team">
+          <img src="./images/8.jpg" class="card-img-top" alt="8">
+            <div class="team-text">
+              <p class="ml-2">Pantone 2021 geometric background</p>
+              <p><img class="mx-2" src="./images/dms.png" alt="logo">freepik</p>
+            </div>
+
+          </div>     
+        </div>
+      </div>
+      <div class="col mb-4 freepiks mix">
+        <div class="card">
+          <div class="card-image single-team">
+          <img src="./images/9.jpg" class="card-img-top" alt="9">
+            <div class="team-text">
+              <p class="ml-2">Pantone 2021 geometric background</p>
+              <p><img class="mx-2" src="./images/dms.png" alt="logo">freepik</p>
+            </div>
+
+          </div>     
+        </div>
+      </div>
+      <div class="col mb-4 psds freepiks mix">
+        <div class="card">
+          <div class="card-image single-team">
+          <img src="./images/10.jpg" class="card-img-top" alt="10">
+            <div class="team-text">
+              <p class="ml-2">Pantone 2021 geometric background</p>
+              <p><img class="mx-2" src="./images/dms.png" alt="logo">freepik</p>
+            </div>
+
+          </div>     
+        </div>
+      </div>
+
+      <div class="col mb-4 freepiks vectors mix">
+        <a href="#">
+        <div class="card">
+          <div class="card-image single-team">
+          <img src="./images/11.jpg" class="card-img-top" alt="11">
+            <div class="team-text">
+              <p class="ml-2">Pantone 2021 geometric background</p>
+              <p><img class="mx-2" src="./images/dms.png" alt="logo">freepik</p>
+            </div>
+
+          </div>     
+        </div>
+      </a>
+      </div>
+      <div class="col mb-4 photos psds freepiks mix">
+        <div class="card">
+          <div class="card-image single-team">
+          <img src="./images/12.jpg" class="card-img-top" alt="12">
+            <div class="team-text">
+              <p class="ml-2">Pantone 2021 geometric background</p>
+              <p><img class="mx-2" src="./images/dms.png" alt="logo">freepik</p>
+            </div>
+
+          </div>     
+        </div>
+      </div>
+      <div class="col mb-4 freepiks mix">
+        <div class="card">
+          <div class="card-image single-team">
+          <img src="./images/13.jpg" class="card-img-top" alt="13">
+            <div class="team-text">
+              <p class="ml-2">Pantone 2021 geometric background</p>
+              <p><img class="mx-2" src="./images/dms.png" alt="logo">freepik</p>
+            </div>
+
+          </div>     
+        </div>
+      </div>
+      <div class="col mb-4 psds freepiks mix">
+        <div class="card">
+          <div class="card-image single-team">
+          <img src="./images/7.jpg" class="card-img-top" alt="7">
+            <div class="team-text">
+              <p class="ml-2">Pantone 2021 geometric background</p>
+              <p><img class="mx-2" src="./images/dms.png" alt="logo">freepik</p>
+            </div>
+
+          </div>     
+        </div>
+      </div>
+      <div class="col mb-4 psds freepiks mix">
+        <div class="card">
+          <div class="card-image single-team">
+          <img src="./images/8.jpg" class="card-img-top" alt="8">
+            <div class="team-text">
+              <p class="ml-2">Pantone 2021 geometric background</p>
+              <p><img class="mx-2" src="./images/dms.png" alt="logo">freepik</p>
+            </div>
+
+          </div>     
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <button class="btn btn-primary btn-lg load-more">View More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== End Gallery Section ==========-->
+
+<!-- ========== Collection Section ==========-->
+<section class="collection-area" id="collection-section">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col">
+        <h2>Discover Freepik Collections</h2>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 mx-2">
+      <div class="col mb-4">  
+        <div class="design-1">
+          <a href="#"> <img src="./images/7.jpg" class="card-img-top" alt="7">
+          </a>
+              <div class="team-text">
+                <div class="row">
+                  <div class="col-6">
+                    <p class="ml-2">Pantone 2021 </p>
+                    <small class="ml-2">112 resources</small>
+                  </div>
+                  <div class="col-6 dots-pic">
+                    <img class="mt-2" onclick="show_hide()" src="./images/dots.jpg" alt="dots">
+                    <div class="row">
+                      <div class="js-click" id="show">
+                      <div class="col testing mt-2">
+                        <a href="#">
+                          <img src="./images/share-icon.jpg" alt=""><span class="ml-3">Share</span> 
+                        </a>                    
+                      </div>
+                      <div class="col testing mt-2">
+                        <a href="#">
+                          <img src="./images/follow-icon.png" alt=""><span class="ml-3">Follow</span> 
+                        </a>                    
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>           
+            </div>    
+        </div>
+      </div>
+      <div class="col mb-4">  
+        <div class="design-1">
+          <a href="#"> <img src="./images/7.jpg" class="card-img-top" alt="7">
+        </a>
+            <div class="team-text">
+              <div class="row">
+                <div class="col-6">
+                  <p class="ml-2">Pantone 2021</p>
+                  <small class="ml-2">112 resources</small>
+                </div>
+                <div class="col-6 dots-pic">
+                  <img class="mt-2" onclick="show_hide_2()" src="./images/dots.jpg" alt="dots">
+                  <div class="row">
+                    <div class="js-click" id="show_2">
+                    <div class="col testing mt-2">
+                      <a href="#">
+                        <img src="./images/share-icon.jpg" alt=""><span class="ml-3">Share</span> 
+                      </a>                    
+                    </div>
+                    <div class="col testing mt-2">
+                      <a href="#">
+                        <img src="./images/follow-icon.png" alt=""><span class="ml-3">Follow</span> 
+                      </a>                    
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>           
+          </div>   
+          </div>     
+      </div>     
+        <div class="col mb-4 design">
+          <a href="#">
+          <div class="card">
+            <div class="card-image single-team">
+            <img src="./images/7.jpg" class="card-img-top" alt="7">
+              <div class="team-text text-center">
+                <h2 class="ml-2">Collections</h2>
+                <p>View More</p>
+              </div>
+  
+            </div>     
+          </div>
+        </a>
+        </div>     
+    </div>
+  </div>
+</section>
+
+<!-- ========== End Collection Section ==========-->
+
+<!-- ========== Popular Search Section ==========-->
+<section class="tags-area" id="tags-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col tag-heading">
+        <h2>Popular Searches</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <p><span>1</span><a href="#">Background</a></p>
+        <p><span>2</span> <a href="#">Chinese new year</a></p>
+        <p><span>3</span> <a href="#">Banner</a></p>
+        <p><span>4</span> <a href="#">Business card</a></p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <p><span>5</span> <a href="#">Mockup</a></p>
+        <p><span>6</span> <a href="#">Infographic</a></p>
+        <p><span>7</span> <a href="#">Logo mockup</a></p>
+        <p><span>8</span> <a href="#">Flyer</a></p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <p><span>9</span> <a href="#">Pattern</a></p>
+        <p><span>10</span> <a href="#">Certificate</a></p>
+        <p><span>11</span> <a href="#">Poster</a></p>
+        <p><span>12</span> <a href="#">Flower</a></p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <p><span>13</span> <a href="#">Logo</a></p>
+        <p><span>14</span> <a href="#">Abstract background</a></p>
+        <p><span>15</span> <a href="#">Arrow</a></p>
+        <a href="#">Show More</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ========== End Popular Search Section ==========-->
+
+<!-- ========== Blog Section ==========-->
+<section class="blog-area" id="blog-section">
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col text-center">
+        <h2>Latest from the blog</h2>
+      </div>
+    </div>
+    <div class="card-deck">
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12 blog">
+    <div class="card">
+      <img src="./images/blog-1.jpg" class="card-img-top" alt="blog-1">  
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 blog">
+    <div class="card">
+      <img src="./images/blog-2.jpg" class="card-img-top" alt="blog-2">
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 blog">
+    <div class="card">
+      <img src="./images/blog-3.jpg" class="card-img-top" alt="blog-3"> 
+    </div>
+  </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== End Blog Section ==========-->
+
+
+<!-- ========== Footer Top logo ==========-->
+<section class="footer-top" id="footer-top">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col">
+        <h2>OUR SISTER CONCERN</h2>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col">
+        <div class="img">
+          <a href="https://dmsbdgroup.com/" target="_blank"><img src="./images/dms-logo/DMS BD Group-01.png" alt=""></a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="img">
+          <a href="https://www.digitalmarketingagencyllc.com/" target="_blank"><img src="./images/dms-logo/dms-agency.png" alt=""></a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="img">
+          <a href="https://www.onlinebanglanewsbd.com/" target="_blank"><img src="./images/dms-logo/Online Bangla News BD-01.png" alt=""></a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="img">
+          <a href="https://projuktirpathshala.com.bd/" target="_blank"><img src="./images/dms-logo/Projuktir Pathshala Institute-01.png" alt=""></a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="img">
+          <a href="http://www.jamidari.com/" target="_blank"><img src="./images/dms-logo/Jamidari Real Estate Agency-01.png" alt=""></a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="img">
+          <a href="http://dmsxpress.com/" target="_blank"><img src="./images/dms-logo/DMS Xpress Online Shopping-01.png" alt=""></a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="img">
+          <a href="https://leadgenerationbd.com/" target="_blank"><img src="./images/dms-logo/Lead Generation Service USA-01.png" alt=""></a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="img">
+          <a href="https://www.dmseducationbd.com/" target="_blank"><img src="./images/dms-logo/DMS Education consultancy-01.png" alt=""></a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="img">
+          <a href="http://ww6.graphicfair.com/" target="_blank"><img src="./images/dms-logo/graphic-fair.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section>  
+   
+<!-- ========== End Footer Top logo ==========-->
+
+
+<!-- ========= Footer Top Social icon =========-->
+
+<section class="social-icon" id="footer-icon">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col same">
+        <div class="icon">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="title">
+          <a href="https://www.facebook.com/DMSBangladesh" target="_blank">Like</a>
+        </div>
+      </div>
+      <div class="col same">
+        <div class="icon">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="title">
+          <a href="https://twitter.com/DMSBangladesh"  target="_blank">Follow</a>
+        </div>
+      </div>
+      <div class="col same">
+        <div class="icon">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <div class="title">
+          <a href="https://www.linkedin.com/company/7575474/" target="_blank">Follow</a>
+        </div>
+      </div>
+      <div class="col same">
+        <div class="icon">
+          <i class="fab fa-pinterest-p"></i>
+        </div>
+        <div class="title">
+          <a href="https://www.pinterest.com/DMSBangladesh" target="_blank">Pin it</a>
+        </div>
+      </div>
+      <div class="col same">
+        <div class="icon">
+          <i class="fab fa-youtube-square"></i>
+        </div>
+        <div class="title">
+          <a href="https://www.youtube.com/c/DigitalMarketingSolution" target="_blank">Subscribe</a>
+        </div>
+      </div>
+      <div class="col same">
+        <div class="icon">
+          <i class="fab fa-tumblr"></i>
+        </div>
+        <div class="title">
+          <a href="http://digitalmarketingbd.tumblr.com/" target="_blank">Len</a>
+        </div>
+      </div>
+      <div class="col same">
+        <div class="icon">
+          <i class="fab fa-flickr"></i>
+        </div>
+        <div class="title">
+          <a href="https://www.flickr.com/photos/141477915@N04/" target="_blank">Follow</a>
+        </div>
+      </div>
+      <div class="col same">
+        <div class="icon">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="title">
+          <a href="https://www.instagram.com/digitalmarketing2015/" target="_blank">Follow</a>
+        </div>
+      </div>
+      <div class="col same">
+        <div class="icon">
+          <i class="fas fa-video"></i>
+        </div>
+        <div class="title">
+          <a href="https://www.dailymotion.com/DMSBangladesh" target="_blank">Add DMS</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ========== End Footer Top Social icon ==========-->
+<!-- ========== Footer Top ==========-->
+<section class="footer-top" id="footer-top">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <h4>ABOUT COMPANY</h4>
+        <p><a href="https://www.digitalmarketingbd.com/about-us/" target="_blank">- ABOUT US</a></p>
+        <p><a href="https://www.digitalmarketingbd.com/mission-and-vision/" target="_blank">- MISSION AND VISION</a></p>
+        <p><a href="https://www.digitalmarketingbd.com/company-profile/" target="_blank">- COMPANY PROFILE</a></p>
+        <p><a href="https://www.digitalmarketingbd.com/company-team/" target="_blank">- COMPANY TEAM</a></p>
+        <p><a href="https://www.digitalmarketingbd.com/career-opportunities/" target="_blank">- CAREER-OPPORTUNITIES</a></p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <h4>INFORMATION</h4>
+        <p><a href="#" target="_blank">- Plans & pricing</a></p>
+        <p><a href="#" target="_blank">- About us</a></p>
+        <div class="bottom">
+          <h4>HELP</h4>
+          <p><a href="" target="_blank">- Support</a></p>
+          <p><a href="" target="_blank">- Contact Us</a></p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <h4>LEGAL</h4>
+        <p><a href="#" target="_blank">- Terms & conditions</a></p>
+        <p><a href="#" target="_blank">- Privacy policy</a></p>
+        <p><a href="#" target="_blank">- Copyright information</a></p>
+        <p><a href="" target="_blank">- Cookies policy</a></p>
+        <p><a href="" target="_blank">- Cookies settings</a></p>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <h4>CONTACT US</h4> 
+          <p><a href="https://www.digitalmarketingbd.com/open-a-ticket/" target="_blank">- OPEN A TICKET</a></p>
+          <p><a href="https://www.facebook.com/DMSBangladesh/" target="_blank">- SOCIAL WAY</a></p>
+          <p><a href="#" target="_blank">- +8801743260655</a></p>
+          <p><a href="#" target="_blank">- +8801971900933</a></p>
+          <p><a href="https://www.digitalmarketingbd.com/contact-us/" target="_blank">- EMAIL SUPPORT</a></p>  
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========= End Footer Top =========-->
+<!-- =========  Footer =========-->
+<footer id="footer">
+<div class="container-fluid">
+  <div class="row text-center">
+    <div class="col">
+      <p>© 2021 DMS Bangladesh. All Rights Reserved. | Design & Development By:- <a href="https://www.digitalmarketingbd.com/" target="_blank">Digital Marketing Solution (Pvt.) Ltd.</a></p>
+    </div>
+  </div>
+</div>
+</footer>
+<!-- ========= End Footer =========-->
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./vendor/js/mixitup.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
